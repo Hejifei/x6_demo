@@ -1,0 +1,11 @@
+.wrapper {
+    // padding: 10px;
+
+    .inputWrapper {
+        :global {
+            .ant-input-number {
+                width: 100%;
+            }
+        }
+    }
+}
